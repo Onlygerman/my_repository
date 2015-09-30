@@ -1,0 +1,153 @@
+.header form {
+	display: inline;
+	float: right;
+}
+
+.header form input {
+	margin-right: 15px;
+	margin-top: 30px;
+	padding: 5px;
+	
+}
+
+.header form input:last-child {
+	background: linear-gradient(#F3AE0F, #E38916) #E38916;
+	border-color: #CC8100;
+	border-width: 1px;
+	border-style:  solid;
+	border-radius: 3px;
+	color: #FFF;
+	cursor: pointer;
+	font-weight: bold;
+	margin-right: 150px;
+	padding-bottom: 7px;
+	padding-left: 25px;
+	padding-top: 7px;
+	padding-right: 25px;
+}
+
+.logo img {
+	display: inline;
+	margin-left: 200px;
+}
+
+.nav-bar ul {
+	text-align: center;
+}
+
+.nav-bar ul li {
+	display: inline;
+	margin-right: 30px;
+	float: center;
+	font-weight: bold;
+	font-family: Arial;
+	margin:0 30px;
+}
+
+.nav-bar li:hover  {
+	color: #E9A125;
+	cursor: pointer;
+}
+
+.header span:last-child {
+
+	border-bottom: 1px dashed;
+	color: #E9A125;
+	float: right;
+	
+}
+
+.main {
+	display:inline-block;   
+    position:relative;
+    
+}
+
+.main img {
+	height: 700px;
+	width:1500px;
+    
+}
+
+.main span {
+	display:inline-block;
+	left:460px;
+    max-width: 610px;
+    position:absolute;
+    top:160px;   
+    
+     
+    /* Оформление текста */
+    color:#000;
+    font-weight: bold;
+    font-family:Arial;
+    font-size:32px;
+    text-align: center; 
+        
+}
+
+.left-block {
+	border-style: solid;
+	border-width: 5px;
+	color: #fff;
+	font-size: 20px;
+    font-family: Arial;
+    left:400px;
+    list-style-type: none;
+    padding:5px 30px 30px 30px;
+    position:absolute;
+    text-align: center;
+    top:300px;     
+}
+
+.left-block li:first-child{
+	font-weight: bold;
+}
+
+.left-block input {
+ 	background: linear-gradient(#7aceff, #24a6fe) #24a6fe;
+	border-color: #425f7c;
+	border-style:  solid;
+	border-width: 1px;
+	border-radius: 3px;
+	color: #FFF;
+	cursor: pointer;
+	font-size: 15px;
+	padding: 10px 30px 10px 30px; 
+}
+
+.right-block {
+	border-style: solid;
+    border-width: 5px;
+    color: #fff;
+    display:inline-block;
+    font-size: 20px;
+    font-family: Arial;
+    left:800px;
+    list-style-type: none;
+	padding:5px 27px 30px 27px;
+    position:absolute;
+    text-align: center;
+    top:300px;   
+}
+
+.right-block li:first-child{
+	font-weight: bold;
+}
+
+.right-block input {
+
+	background: linear-gradient(#F3AE0F, #E38916) #E38916;
+	border-color: #CC8100;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 3px;
+	color: #FFF;
+	cursor: pointer;
+	font-size: 15px;
+	padding: 10px 30px 10px 30px; 
+	
+}
+
+
+	
