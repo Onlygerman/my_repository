@@ -1,7 +1,18 @@
+.header {
+	background-color: #f6f5f5;
+	width:1500px;
+	height: 100px;	
+	margin:0;
+	padding: 0;
+}
+
 .header form {
 	display: inline;
 	float: right;
+	margin-bottom: 0;
+
 }
+
 
 .header form input {
 	margin-right: 15px;
@@ -10,7 +21,20 @@
 	
 }
 
-.header form input:last-child {
+.br {
+	
+	border-bottom: 2px dotted;
+	color: #E9A125;
+	cursor: pointer;
+	float: right;
+   	margin-top: 60px; 
+   	
+
+	
+}
+
+.header .button {
+
 	background: linear-gradient(#F3AE0F, #E38916) #E38916;
 	border-color: #CC8100;
 	border-width: 1px;
@@ -31,17 +55,27 @@
 	margin-left: 200px;
 }
 
+
 .nav-bar ul {
 	text-align: center;
+	width: 1461px;
+	margin-top: 0;
+	border-bottom: 4px ridge;
+	border-color: #afafaf;
+	border-top: 4px ridge;
+	position: absolute;
+	padding-bottom:30px;
+	padding-top:30px;
+	background-color: #fff;
 }
 
 .nav-bar ul li {
+	
 	display: inline;
-	margin-right: 30px;
-	float: center;
 	font-weight: bold;
 	font-family: Arial;
 	margin:0 30px;
+	
 }
 
 .nav-bar li:hover  {
@@ -49,24 +83,18 @@
 	cursor: pointer;
 }
 
-.header span:last-child {
 
-	border-bottom: 1px dashed;
-	color: #E9A125;
-	float: right;
-	
-}
 
 .main {
 	display:inline-block;   
     position:relative;
     
+    
 }
 
-.main img {
+.main img{
 	height: 700px;
 	width:1500px;
-    
 }
 
 .main span {
@@ -91,7 +119,8 @@
 	border-width: 5px;
 	color: #fff;
 	font-size: 20px;
-    font-family: Arial;
+    font-family: HelveticaNeueCyr;
+  	src: url(C:\Users\user\Desktop\HelveticaNeueCyr-Light.otf);
     left:400px;
     list-style-type: none;
     padding:5px 30px 30px 30px;
@@ -122,7 +151,8 @@
     color: #fff;
     display:inline-block;
     font-size: 20px;
-    font-family: Arial;
+    font-family: HelveticaNeueCyr;
+  	src: url(C:\Users\user\Desktop\HelveticaNeueCyr-Light.otf);
     left:800px;
     list-style-type: none;
 	padding:5px 27px 30px 27px;
@@ -149,5 +179,79 @@
 	
 }
 
+.gray-line {
+	margin: 20px 0 20px; 
+	display:inline-block;   
+    position:relative;
+    width: 1500px;
+    height: 111px;
 
+    background-image:url("gray_line.png");
+        
+}  
+
+
+.gray-line .first-string {
+	margin-left: 640px;
+	vertical-align: -35px;
+    color:#000;
+   font-family: Microsoft Sans Serif;
+  src: url(micross.ttf);
+    font-size:23px;
+} 
+
+.gray-line hr {
+	
+	width:10%;
+	height: 2px;
+	border: 0;
+	box-shadow: inset 0 12px 200px 0px #d5d4d4;
+}
+
+.gray-line .second-string {
+	border-bottom: 3px dotted; 
+	color:#009c0f;
+	cursor: pointer;
+    font-family: Microsoft Sans Serif;
+    font-size:18px;
+    margin-left: 20px;
+  	src: url(micross.ttf);
+  	vertical-align: 10px;
+   
+}
+
+.gray-line img {
+	margin-left: 550px;
+}
+
+#outer{
+  width: 1500px;
+  height: 50px;
+  
+  
+  }
+  
+  #inner{
+  width: 1500px;
+  height: 50px;
+  border-bottom: 3px solid #33aafe;
+  position: relative;
+  }
+  
+  #inner p{
+  margin:0;
+  
+  padding: 0 40px 0 40px;
+  left:530px;
+  font-size: 1.8em;
+  top: 30px;
+  
+  font-family: Microsoft Sans Serif;
+  src: url(micross.ttf);
+  background-color: white;
+  
+  position: absolute;
+ 
+  
+  }
 	
