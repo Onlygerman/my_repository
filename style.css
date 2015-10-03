@@ -15,23 +15,30 @@
 
 
 .header form input {
+
+	font-family: HelveticaNeueCyr;
+  	src: url(C:\Users\user\Desktop\test\HelveticaNeueCyr-Light.otf);
 	margin-right: 15px;
 	margin-top: 30px;
 	padding: 5px;
 	
 }
 
-.br {
+.forgot-password {
 	
 	border-bottom: 2px dotted;
 	color: #E9A125;
 	cursor: pointer;
-	float: right;
-   	margin-top: 60px; 
-   	
-
+	font-family: HelveticaNeueCyr;
+	font-size: 13px;
+  	src: url(C:\Users\user\Desktop\test\HelveticaNeueCyr-Light.otf);
+	position: absolute;
+	margin: -32px 0 0 1097px;
+	text-decoration: none;
 	
 }
+
+
 
 .header .button {
 
@@ -53,6 +60,11 @@
 .logo img {
 	display: inline;
 	margin-left: 200px;
+}
+
+.logo a {
+	margin: 0;
+	padding: 0;
 }
 
 
@@ -120,7 +132,7 @@
 	color: #fff;
 	font-size: 20px;
     font-family: HelveticaNeueCyr;
-  	src: url(C:\Users\user\Desktop\HelveticaNeueCyr-Light.otf);
+  	src: url(C:\Users\user\Desktop\test\HelveticaNeueCyr-Light.otf);
     left:400px;
     list-style-type: none;
     padding:5px 30px 30px 30px;
@@ -152,7 +164,7 @@
     display:inline-block;
     font-size: 20px;
     font-family: HelveticaNeueCyr;
-  	src: url(C:\Users\user\Desktop\HelveticaNeueCyr-Light.otf);
+  	src: url(C:\Users\user\Desktop\test\HelveticaNeueCyr-Light.otf);
     left:800px;
     list-style-type: none;
 	padding:5px 27px 30px 27px;
@@ -180,42 +192,45 @@
 }
 
 .gray-line {
-	margin: 20px 0 20px; 
+	background-image:url("gray_line.png");
 	display:inline-block;   
-    position:relative;
-    width: 1500px;
-    height: 111px;
-
-    background-image:url("gray_line.png");
+	height: 111px;
+	margin: 20px 0 20px; 
+	position:relative;
+    width: 1500px;  
         
 }  
 
 
 .gray-line .first-string {
+	color:#000;
+	font-family: HelveticaNeueCyr;
+	font-size:23px;
 	margin-left: 640px;
-	vertical-align: -35px;
-    color:#000;
-   font-family: Microsoft Sans Serif;
-  src: url(micross.ttf);
-    font-size:23px;
+	src: url(C:\Users\user\Desktop\test\HelveticaNeueCyr-Light.otf);
+    vertical-align: -35px;
+    
 } 
 
 .gray-line hr {
 	
-	width:10%;
-	height: 2px;
 	border: 0;
 	box-shadow: inset 0 12px 200px 0px #d5d4d4;
+	height: 2px;
+	width:10%;
+	
+	
+	
 }
 
 .gray-line .second-string {
 	border-bottom: 3px dotted; 
 	color:#009c0f;
 	cursor: pointer;
-    font-family: Microsoft Sans Serif;
-    font-size:18px;
+    font-family: HelveticaNeueCyr;
+  	font-size:18px;
     margin-left: 20px;
-  	src: url(micross.ttf);
+  	src: url(C:\Users\user\Desktop\test\HelveticaNeueCyr-Light.otf);
   	vertical-align: 10px;
    
 }
@@ -224,34 +239,128 @@
 	margin-left: 550px;
 }
 
-#outer{
-  width: 1500px;
+#outer {
   height: 50px;
-  
-  
-  }
-  
-  #inner{
   width: 1500px;
-  height: 50px;
+   
+}
+  
+#inner {
   border-bottom: 3px solid #33aafe;
+  height: 50px;
   position: relative;
-  }
+  width: 1500px;
   
-  #inner p{
-  margin:0;
+}
   
-  padding: 0 40px 0 40px;
-  left:530px;
-  font-size: 1.8em;
-  top: 30px;
-  
-  font-family: Microsoft Sans Serif;
-  src: url(micross.ttf);
+#inner p {
   background-color: white;
-  
+  font-family: HelveticaNeueCyr;
+  font-size: 1.8em;
+  left:530px;
+  margin:0;
+  padding: 0 40px 0 40px;
   position: absolute;
- 
-  
-  }
+  src: url(C:\Users\user\Desktop\test\HelveticaNeueCyr-Light.otf);
+  top: 30px;  
+}
+
+ .servis-zakazchik {
+ 	background-image: url("krugi.png");
+ 	background-size:contain;
+	height: 300px;
+ 	left:40px;
+ 	position: relative;
+ 	top:30px;
+ 	width: 1600px;
+ 	z-index: 1;
+ 	
+ 	
+ }
+
+.item-item1 {
+	font-size: 14px;
+    font-family: HelveticaNeueCyr;
+  	left: 337px;
+    list-style-type: none;
+    position:relative;
+    src: url(C:\Users\user\Desktop\test\HelveticaNeueCyr-Light.otf);
+    text-align: center;  
+    top:100px;
+	width:195px;
+	z-index: 2;    
 	
+}	
+
+ .item-item1 ul {
+	color: #fff;
+	font-size: 16px;
+    font-family: HelveticaNeueCyr;
+    font-weight: bold;
+    left:22px;
+    margin-bottom: 1px;
+  	padding-left: 0;
+    position:relative;
+    src: url(C:\Users\user\Desktop\test\HelveticaNeueCyr-Light.otf);
+    text-align: center; 
+    top:-45px;
+    vertical-align: middle; 
+	width: 155px;
+	z-index: 2;  
+}	
+
+.item-item2 {
+	font-size: 14px;
+    font-family: HelveticaNeueCyr;
+  	left: 596px;
+    list-style-type: none;
+    
+    position:relative;
+    src: url(C:\Users\user\Desktop\test\HelveticaNeueCyr-Light.otf);
+    text-align: center;  
+    top:-58px;
+	width:225px;
+	z-index: 2;    
+	
+}
+
+ .item-item2 ul {
+	color: #fff;
+	font-size: 16px;
+    font-family: HelveticaNeueCyr;
+    font-weight: bold;
+  
+    position:relative;
+    right: 17px;
+    src: url(C:\Users\user\Desktop\test\HelveticaNeueCyr-Light.otf);
+    text-align: center; 
+    top:-18px;
+    
+	z-index: 2;    
+}	
+
+.item-item3 {
+	font-size: 14px;
+    font-family: HelveticaNeueCyr;
+	left: 890px;
+    list-style-type: none;
+    position:relative;
+    src: url(C:\Users\user\Desktop\test\HelveticaNeueCyr-Light.otf);
+    text-align: center;  
+    top:-220px;
+    width:185px;
+	z-index: 2;    
+}
+
+.item-item3 ul {
+	color: #fff;
+	font-size: 16px;
+    font-family: HelveticaNeueCyr;
+    font-weight: bold;
+    position:relative;
+    right: 17px;
+    src: url(C:\Users\user\Desktop\test\HelveticaNeueCyr-Light.otf);
+    text-align: center; 
+    top:-18px;
+	z-index: 2;    
+}	
