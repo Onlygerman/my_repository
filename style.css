@@ -272,7 +272,7 @@
  	left:40px;
  	position: relative;
  	top:30px;
- 	width: 1600px;
+ 	width: 1500px;
  	z-index: 1;
  	
  	
@@ -364,3 +364,87 @@
     top:-18px;
 	z-index: 2;    
 }	
+
+.main {
+	display:inline-block;   
+    position:relative;
+    
+ }
+
+.main2 span {
+	display:inline-block;
+	left:500px;
+    max-width: 500px;
+    position:absolute;
+    top:1370px;   
+    
+     
+    /* Оформление текста */
+    color:#fff;
+    font-weight: bold;
+    font-family:Arial;
+    font-size:32px;
+    text-align: center; 
+        
+}
+
+.main2 li {
+	display:inline-block;
+	left:590px;
+    max-width: 500px;
+    position:absolute;
+    top:1470px;   
+    
+     
+    /* Оформление текста */
+    color:#fff;
+    font-weight: bold;
+    font-family:Arial;
+    font-size:22px;
+    text-align: center; 
+        
+}
+
+.krugi-cifry {
+	position: relative;
+	bottom:270px;
+	left: 340px;
+}
+
+.krugi-cifry img{
+	width: 799px;
+}
+
+.podpisi span {
+	color:#fff;
+	display: inline-block;
+	font-size: 13px;
+	left: 279px;	
+	padding:6px 27px;
+	position: relative;
+	text-align: center;
+	top:-267px;
+	width:127px;
+
+}
+
+.main2 input {
+	background: linear-gradient(#F3AE0F, #E38916) #E38916;
+	border-color: #CC8100;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 3px;
+	color: #FFF;
+	cursor: pointer;
+	font-size: 15px;
+	padding: 10px 30px 10px 30px; 
+	position: relative;
+	top:-220px;
+	left:650px;
+}
+
+.main2 input:active {
+	background: linear-gradient(#F3AE0F, #E38916) #E38916;
+	border-color: #CC8100;	
+	border-width: 10px;
+}
