@@ -1,23 +1,18 @@
-
 <?php
 session_start();
-/*if (!isset($_SESSION['counter'])) $_SESSION['counter']=0;
-echo "Вы обновили эту страницу ".$_SESSION['counter']++." раз(а).<br> ";*/
-
 /**
  * Created by PhpStorm.
  * User: user
  * Date: 09.10.2015
  * Time: 16:58
  */
-// Скрипт проверки
+// РЎРєСЂРёРїС‚ РїСЂРѕРІРµСЂРєРё
 
 
-# Соединямся с БД
+# РЎРѕРµРґРёРЅСЏРјСЃСЏ СЃ Р‘Р”
 $link=mysqli_connect('localhost', 'root', '','hello');
 
-/*if (!isset($_SESSION['login'])) $_SESSION['login'] = $_POST['login'];
-if ($_SESSION['login']=='admin') echo "You logged as admin<br>";*/
+
 
 if (isset($_COOKIE['id']))
 {
@@ -27,17 +22,27 @@ if (isset($_COOKIE['id']))
     if(($userdata['user_id'] !== $_COOKIE['id']))
     {
 
-        echo "error";
+        echo "РћС€РёР±РєР°";
     }
     else
     {
 
-        echo "Привет, ".$userdata['user_login'].". Всё работает!";
+        echo "РџСЂРёРІРµС‚, ".$userdata['user_login'].". Р’СЃС‘ СЂР°Р±РѕС‚Р°РµС‚!";
+
+        if ($_SESSION['login']=='admin') echo "<br>Р’РЅРёРјР°РЅРёРµ!Р’С‹ Р·Р°С€Р»Рё РєР°Рє Р°РґРјРёРЅРёСЃС‚СЂР°С‚РѕСЂ";
 
     }
+
 }
 else
 {
-    echo "Включите cookie";
+    echo "Р’РєР»СЋС‡РёС‚Рµ cookie";
 }
+echo '<form method="POST" >';
+echo '<input name="submit" type="submit" value="РќР°Р·Р°Рґ">';
+if(isset($_POST['submit']))
+    header("Location: login.php"); exit();
+
+
+
 
